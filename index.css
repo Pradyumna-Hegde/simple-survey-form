@@ -1,0 +1,114 @@
+html {
+  font-size: 62.5%;
+  --background-color: white;
+  --card-color: rgb(250, 177, 177);
+  --text-color: black;
+  --primary-color: rgb(219, 92, 92);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header Stylings */
+header {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 6rem;
+  color: var(--text-color);
+}
+
+#title {
+  padding: 2rem 0 1rem 0;
+}
+
+main {
+  margin-top: 4rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+form {
+  width: 60vw;
+  max-width: 80rem;
+  min-width: 50rem;
+  margin: 0 auto;
+}
+
+form h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+fieldset {
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+label {
+  display: block;
+  margin: 0 0 1.6rem 0;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 3.2rem;
+  color: var(--primary-color);
+  border: 3px solid var(--card-color);
+  padding: 0.4rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+option {
+  font-weight: 600;
+}
+
+/* radio inputs stylings */
+.inline {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.4rem 0 0;
+}
+
+.personal-business,
+.gender {
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.services {
+  margin: 0;
+  margin-top: 1.6rem;
+}
+
+#submit {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 0 5rem 0;
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 2px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 10rem;
+  color: var(--text-color);
+}
