@@ -1,9 +1,9 @@
 html {
   font-size: 62.5%;
   --background-color: white;
-  --card-color: rgb(250, 177, 177);
+  --card-color: rgb(109, 109, 109);
   --text-color: black;
-  --primary-color: rgb(219, 92, 92);
+  --primary-color: black;
 }
 body {
   padding: 0;
@@ -68,7 +68,7 @@ textarea {
   width: 100%;
   min-height: 3.2rem;
   color: var(--primary-color);
-  border: 3px solid var(--card-color);
+  border: 2px solid var(--card-color);
   padding: 0.4rem;
   border-radius: 4px;
   font-weight: 600;
@@ -101,14 +101,28 @@ option {
   padding: 1rem;
   margin: 0 0 5rem 0;
   font-size: 2rem;
+  color: white;
   background-color: var(--primary-color);
   border: none;
   border-radius: 2px;
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 1.6rem;
   margin-bottom: 10rem;
   color: var(--text-color);
+}
+
+#footer-link {
+  padding: 0 4px;
+  margin: 0 5px;
+  color: black;
+}
+
+#footer-link:hover {
+  font-weight: 600;
 }
